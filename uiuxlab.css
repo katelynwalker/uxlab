@@ -1,0 +1,117 @@
+@media only screen and (max-width:480px){
+body{
+    background-color:rgba(255, 192, 203, 0.089);
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    font-family:'News Cycle', sans-serif;
+    
+}
+h1{
+    padding-top:70px;
+    text-align:center;
+    font-family: 'Prompt', sans-serif;
+    color:rgb(105, 179, 172);
+    font-size:45px;
+    
+}
+h1 #smaller{
+    font-family: 'News Cycle', sans-serif;
+    font-size:50%;
+    color:black;
+}
+.socialmedia {
+   display:flex;
+   align-content:flex-end;
+}
+.navleft a{
+    padding-right:15px;
+}
+.content{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;   
+}
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.mainimage{ 
+    height:70%;
+    width:70%;
+    padding-top:30px;
+    padding-bottom:100px;
+}
+.socialmedia img{
+    height:30px;
+    width:30px;
+    padding:5px;
+}
+.socialmedia{
+    display:flex;
+    justify-content:flex-end;
+} 
+} 
+
+@media only screen and (min-width:480px){
+    body{
+        background-color:rgba(255, 192, 203, 0.089);
+    }
+    nav{
+        display:flex;
+        justify-content:space-between;
+        font-family:'News Cycle', sans-serif;
+        font-size:22px;
+    }
+    h1{
+        padding-top:70px;
+        text-align:center;
+        font-family: 'Prompt', sans-serif;
+        color:rgb(105, 179, 172);
+        font-size:60px;
+        
+    }
+    h1 #smaller{
+        font-family: 'News Cycle', sans-serif;
+        font-size:50%;
+        color:black;
+    }
+    .socialmedia {
+       display:flex;
+       align-content:flex-end;
+    }
+    .navleft a{
+        padding-right:15px;
+    }
+    .content{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;   
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .mainimage{ 
+        height:75%;
+        width:75%;
+        padding-top:30px;
+        padding-bottom:100px;
+    }
+    .socialmedia img{
+        height:30px;
+        width:30px;
+        padding:5px;
+    }
+    .socialmedia{
+        display:flex;
+        justify-content:flex-end;
+    } 
+}
